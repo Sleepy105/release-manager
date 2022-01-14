@@ -1,0 +1,25 @@
+{
+  "name": "release-manager",
+  "version": "1.0.0",
+  "description": "An executable to manage your projects deployments based on Github Releases",
+  "main": "main.js",
+  "scripts": {
+    "test": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sleepy105/release-manager.git"
+  },
+  "author": "Sleepy105",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/Sleepy105/release-manager/issues"
+  },
+  "homepage": "https://github.com/Sleepy105/release-manager#readme",
+  "dependencies": {
+    "@octokit/graphql": "^4.8.0",
+    "@octokit/rest": "^18.12.0",
+    "inquirer": "^8.2.0",
+    "minimist": "^1.2.5"
+  }
+}
